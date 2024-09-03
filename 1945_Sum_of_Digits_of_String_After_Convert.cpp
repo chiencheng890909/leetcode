@@ -6,6 +6,7 @@ public:
             int char_int = (int(s[i]) - int('a') + 1);
             num += (char_int / 10 + char_int % 10);
         }
+        
         int Ans = num;
         while (k > 1) {
             Ans = 0;
