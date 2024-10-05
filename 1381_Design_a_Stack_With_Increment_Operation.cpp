@@ -3,7 +3,7 @@ struct Node {
     Node *next = nullptr;
     Node *prev = nullptr;
 };
-
+ 
 
 class CustomStack {
 private:
